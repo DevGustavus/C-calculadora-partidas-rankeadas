@@ -6,6 +6,33 @@ I chose the C language for this project as I wanted to practice it and, not only
 
 <img src="Doc/README_assets/menu.png">
 
+### 2️⃣ Ranked Matches Calculator
+**What should be used**
+
+- Variables
+- Operators
+- Loops
+- Decision Structures
+- Functions
+
+### Objective:
+
+Create a function that takes the number of victories and defeats of a player as parameters,
+then return the result to a variable; the Ranked Matches balance should be calculated through the formula (victories - defeats).
+
+If victories are less than 10 = Iron <br>
+If victories are between 11 and 20 = Bronze <br>
+If victories are between 21 and 50 = Silver <br>
+If victories are between 51 and 80 = Gold <br>
+If victories are between 81 and 90 = Diamond <br>
+If victories are between 91 and 100 = Legendary <br>
+If victories are greater than or equal to 101 = Immortal
+
+### Output
+
+In the end, display the message:
+"The hero has a balance of **{victoryBalance}** and is at the level of **{level}**"
+
 ## 🦾 Technologies used
 <div style="display: flex;">
   
